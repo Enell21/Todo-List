@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  background-color: #638b9c;
+  color: #421ee1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-right: 2rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+li:hover {
+  color: #f1c40f;
+  cursor: pointer;
+}
